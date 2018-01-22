@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show OK Alert"
+        android:background="#ff99cc00"
+
+        >
+    </Button>
+
+    <Button android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Yes / No Alert "
+        android:background="#90EE90"
+        android:layout_marginTop="5dp"
+        >
+    </Button>
+
+    <Button android:id="@+id/button3"
+        android:layout_marginTop="5dp"
+        android:background="#FFAA0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Alert with Cancel Button"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+</LinearLayout>
