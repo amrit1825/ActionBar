@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Week2</string>
+    <string name="welcome_message">Welcome to Android Training. Current activity is with Relative Layout.</string>
+    <string name="new_activity">Go to activity with Linear Layout</string>
+    <string name="toast">Toast</string>
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="home">Back to Activity with Relative Layout</string>
+    <string name="menu">Menu</string>
+</resources>
