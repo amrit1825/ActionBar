@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="title">Room Framework</string>
+    <string name="button1">Add User</string>
+    <string name="button2">Get All User</string>
+    <string name="UserId">Enter User Id</string>
+    <string name="user">User Id</string>
+    <string name="userName">User Name</string>
+    <string name="userNameEnter">Enter User Name</string>
+</resources>

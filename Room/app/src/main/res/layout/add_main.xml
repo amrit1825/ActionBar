@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="24dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/editText_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/UserId"
+        android:layout_marginEnd="66dp"
+        android:layout_alignBottom="@+id/textView_userId"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userName"
+        android:textSize="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText_userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/userNameEnter"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignStart="@+id/editText_userId" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView_userId"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="93dp" />
+
+</RelativeLayout>
