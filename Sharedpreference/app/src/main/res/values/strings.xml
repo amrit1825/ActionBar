@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sharedpreference</string>
+    <string name="Title">Shared Preference in Android</string>
+    <string name="Name">Enter Your Name</string>
+    <string name="Email">Enter Your Email</string>
+    <string name="save">Save</string>
+    <string name="remove">Delete</string>
+</resources>
