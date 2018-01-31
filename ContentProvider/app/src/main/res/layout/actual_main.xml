@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonProceedAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addJob"
+        android:layout_marginBottom="56dp"
+        android:layout_above="@+id/buttonProceedGet"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickProceedAdd"/>
+
+    <Button
+        android:id="@+id/buttonProceedGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/getJob"
+        android:layout_marginBottom="75dp"
+        android:layout_above="@+id/buttonProceedDelete"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickProceedGet"/>
+
+    <Button
+        android:id="@+id/buttonProceedDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteJob"
+        android:layout_marginBottom="161dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickProceedDelete"/>
+
+</RelativeLayout>

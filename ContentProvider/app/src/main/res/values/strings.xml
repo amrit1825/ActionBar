@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ContentProvider</string>
+    <string name="name">Enter Student Name</string>
+    <string name="roll">Enter Student Roll Number</string>
+    <string name="add">Add</string>
+    <string name="get">Get All</string>
+    <string name="heading">Content Provider Example</string>
+    <string name="delete">Delete</string>
+    <string name="deleteRecord">Enter Student Id to be Deleted</string>
+    <string name="addJob">Add a Student Record</string>
+    <string name="getJob">Get all Student Record</string>
+    <string name="deleteJob">Delete a Student Record</string>
+</resources>

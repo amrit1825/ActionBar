@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:background="@color/yellow"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginTop="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/roll"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="72dp"
+        android:layout_marginEnd="72dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:layout_marginTop="61dp"
+        android:id="@+id/buttonAdd"
+        android:layout_below="@+id/editTextRoll"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickAddName"/>
+
+</RelativeLayout>
